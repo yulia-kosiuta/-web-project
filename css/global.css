@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    --background-color: #2091F9;
+    --text-color: #fff;
+    --border-color: #DDDDDD;
+    --shadow-color: rgba(0, 0, 0, 0.07);
+    --form-background: #f5f5f5;
+    --form-border: #e8e8e8;
+    --footer-background: #252b42;
+    --pricing-border: #dedede;
+    --first-color: #000;
+    --prototyping-background: #f4f4f4;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 5px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-top: 80px;
+}
+
+.sub-title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-top: 15px;
+    max-width: 530px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.button {
+    padding: 12px 39px;
+    max-width: 236px;
+    height: 42px;
+    background: var(--background-color);
+    border-radius: 35px;
+    color: var(--text-color);
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 50px;
+    display: block;
+    margin: auto;
+}
+
+.additional {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+.desktop-block {
+    display: none;
+}
+
+.additional-image {
+    display: none;
+}
+
+a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}

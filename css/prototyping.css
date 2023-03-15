@@ -1,0 +1,55 @@
+.prototyping_body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.prototyping__text-weight {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1px;
+}
+
+.prototyping__image img {
+    margin: 90px 0;
+    max-width: 650px;
+    max-height: 514px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.prototyping__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.prototyping__form {
+    background: var(--prototyping-background);
+    border: 1px solid var(--form-border);
+    border-radius: 39px;
+    padding: 12px 25px;
+    width: 237px;
+    margin: 6px 0;
+}
+
+.prototyping__subscribe {
+    margin-top: 90px;
+}
+
+.prototyping__subscribe form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prototyping__button {
+    border: 0;
+    width: 300px;
+}

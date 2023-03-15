@@ -1,0 +1,33 @@
+.testimonials__logo {
+    width: 126px;
+    height: 50px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.testimonials__sub-title {
+    font-weight: 700;
+    font-size: 13.5256px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.16907px;
+}
+
+.designer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.designer__image {
+    margin-right: 10px;
+}
+
+.testimonials__button {
+    width: 250px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    padding: 10px;
+}

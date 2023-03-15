@@ -1,0 +1,374 @@
+@media(min-width: 360px) {
+
+    .pricing-columns__one,
+    .pricing-columns__two,
+    .pricing-columns__three {
+        width: 275px;
+    }
+}
+
+@media(min-width: 410px) {
+
+    .pricing-columns__one,
+    .pricing-columns__two,
+    .pricing-columns__three {
+        width: 335px;
+    }
+
+    .contact__form {
+        width: 350px;
+    }
+}
+
+@media(min-width: 510px) {
+
+    .contact__form {
+        width: 453px;
+    }
+
+    .organisation__image {
+        width: 420px;
+        height: 160px;
+        margin-bottom: 100px;
+    }
+}
+
+@media(min-width: 690px) {
+
+    .footer__columns {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .organisation__image {
+        width: 520px;
+        height: 240px;
+        margin-bottom: 100px;
+    }
+}
+
+@media(min-width: 820px) {
+
+    .item {
+        order: 1;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .item__link {
+        padding: 0 15px;
+    }
+
+    .header__figma-logo {
+        order: 2
+    }
+
+    .additional {
+        display: inline;
+    }
+
+    .organisation__image {
+        width: 620px;
+        height: 340px;
+    }
+
+    .prototyping input {
+        width: 270px;
+        padding: 15px;
+    }
+
+    .prototyping button {
+        height: 45px;
+        margin-top: 10px;
+    }
+}
+
+@media(min-width: 1030px) {
+
+    .header__icons {
+        display: flex;
+        order: 3;
+    }
+
+    .header__icons img {
+        width: 33px;
+        height: 28px;
+        margin: 0 16px;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .features__video {
+        order: 2;
+    }
+
+    .columns {
+        order: 1;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 40px 40px 0px 40px;
+    }
+
+    .columns__title {
+        max-width: 194px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .columns__sub-title {
+        max-width: 230px;
+        margin: auto;
+    }
+
+    .organisation {
+        display: flex;
+    }
+
+    .organisation__body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 30px;
+    }
+
+    .organisation__sub-title {
+        text-align: start;
+    }
+
+    .organisation__title {
+        text-align: start;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+        margin-top: 17px;
+    }
+
+    .desktop-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .prototyping {
+        margin-top: 60px;
+    }
+
+    .prototyping__title {
+        max-width: 324px;
+        text-align: start;
+    }
+
+    .prototyping__text-weight {
+        text-align: start;
+    }
+
+    .prototyping__sub-title {
+        display: none;
+    }
+
+    .prototyping__text-weight {
+        text-align: start;
+    }
+
+    .prototyping__text {
+        text-align: start;
+    }
+
+    .prototyping form {
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .prototyping input {
+        width: 260px;
+        height: 50px;
+    }
+
+    .prototyping button {
+        width: 170px;
+        height: 47px;
+        margin-left: 10px;
+
+    }
+
+    .prototyping__image img {
+        justify-content: start;
+        margin-right: 50px;
+    }
+
+    .additional-image {
+        display: block;
+    }
+
+    .image {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+        margin: 0px 85px 0px 105px;
+    }
+
+    .image__item {
+        margin: 0;
+    }
+
+    .partners__sub-title {
+        margin-bottom: 90px;
+    }
+
+    .pricing-columns {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pricing-columns__one,
+    .pricing-columns__two,
+    .pricing-columns__three {
+        margin: 0 2px 0 2px;
+    }
+
+    .pricing-columns__two {
+        height: 670px;
+        padding-top: 108px;
+    }
+
+    .contact__map {
+        display: block;
+    }
+
+    .contact__body {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .contact__form {
+        order: 1;
+        margin: 0;
+    }
+
+    .contacts__data {
+        order: 1;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 880px;
+    }
+
+    .contacts__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacts__item:nth-child(2) {
+        padding: 0;
+    }
+
+    .contacts__item:nth-child(3) {
+        padding: 0;
+        padding-left: 15px;
+    }
+
+    .contacts__text {
+        text-align: center;
+        max-width: 290px;
+    }
+
+    .contact__map {
+        order: 2;
+        margin: auto;
+    }
+
+    .contact__icons {
+        order: 3;
+    }
+
+    .contact__map iframe {
+        width: 510px;
+        height: 323px;
+    }
+
+    .footer__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer__item {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin: 0px 10px;
+        width: 130px;
+    }
+
+    .footer__item p {
+        text-align: start;
+    }
+
+    .footer__sub-title:first-child {
+        text-align: start;
+        display: block;
+    }
+
+    .footer__data {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin-top: 108px;
+    }
+
+    .footer__contacts,
+    .footer_icons {
+        margin: 0;
+    }
+
+    .footer__unit:last-child {
+        padding: 0;
+    }
+
+    .footer__unit {
+        justify-content: start;
+    }
+}
+
+@media(min-width: 1120px) {
+
+    .pricing-columns__one,
+    .pricing-columns__two,
+    .pricing-columns__three {
+        margin: 0 25px 0 25px;
+    }
+
+    .footer__item {
+        margin: 0px 20px;
+        width: 150px;
+    }
+}
+
+@media(min-width: 1490px) {
+
+    .header {
+        min-height: 900px;
+    }
+}

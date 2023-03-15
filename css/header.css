@@ -1,0 +1,68 @@
+.header {
+    color: var(--text-color);
+    background-image: url(../img/background-photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.item__link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: var(--text-color);
+    text-decoration: none;
+    display: block;
+}
+
+.icon {
+    display: none;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-burger {
+    order: 2;
+    display: flex;
+}
+
+.header__figma-logo {
+    order: 1;
+    width: 186px;
+    height: 58px;
+}
+
+.header__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 672px;
+    margin: auto;
+    margin-top: 160px;
+}
+
+.header__sub-title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 760px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.header_button {
+    margin-top: 60px;
+    margin-bottom: 200px;
+
+}
